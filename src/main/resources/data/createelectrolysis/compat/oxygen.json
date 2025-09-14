@@ -1,0 +1,6 @@
+{
+  "fluid": "createelectrolysis:oxygen_source",
+  "burnTime": 80,
+  "superHeat": true,
+  "amountConsumedPerTick": 4
+}

@@ -1,0 +1,6 @@
+{
+  "fluid": "createelectrolysis:hydrogen_source",
+  "burnTime": 80,
+  "superHeat": true,
+  "amountConsumedPerTick": 4
+}

@@ -1,0 +1,43 @@
+event.registerBlockEntity(
+                Capabilities.FluidHandler.BLOCK,
+                ModBlockEntities.MY_BLOCK_ENTITY.get(),
+                (blockEntity, side) -> {
+                    if (blockEntity instanceof MyBlockEntity) {
+                        return ((MyBlockEntity) blockEntity).getWaterTank();
+                        // or return combined or conditional based on `side` if you want
+                    }
+                    return null;
+                }
+        );
+        event.registerBlockEntity(
+                Capabilities.FluidHandler.BLOCK,
+                ModBlockEntities.MY_BLOCK_ENTITY.get(),
+                (blockEntity, side) -> {
+                    if (blockEntity instanceof MyBlockEntity) {
+                        return ((MyBlockEntity) blockEntity).getHydrogenTank();
+                        // or return combined or conditional based on `side` if you want
+                    }
+                    return null;
+                }
+        );
+        event.registerBlockEntity(
+                Capabilities.FluidHandler.BLOCK,
+                ModBlockEntities.MY_BLOCK_ENTITY.get(),
+                (blockEntity, side) -> {
+                    if (blockEntity instanceof MyBlockEntity) {
+                        return ((MyBlockEntity) blockEntity).getOxygenTank();
+                        // or return combined or conditional based on `side` if you want
+                    }
+                    return null;
+                }
+        );
+        event.registerBlockEntity(
+                Capabilities.FluidHandler.BLOCK,
+                ModBlockEntities.MY_BLOCK_ENTITY.get(),
+                (blockEntity, side) -> {
+                    if (blockEntity instanceof MyBlockEntity be) {
+                        return be.routerHandler;
+                    }
+                    return null;
+                }
+        );

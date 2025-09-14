@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createelectrolysis:block/oxygen_block/block"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "createelectrolysis:electrolysis",
+  "energy": 10,
+  "input": {
+    "amount": 30,
+    "id": "minecraft:water"
+  },
+  "output1": {
+    "amount": 20,
+    "id": "createelectrolysis:hydrogen"
+  },
+  "output2": {
+    "amount": 10,
+    "id": "createelectrolysis:oxygen"
+  }
+}

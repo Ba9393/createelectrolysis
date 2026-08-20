@@ -1,0 +1,19 @@
+{
+  "itemGroup.createelectrolysis": "Create: Electrolysis",
+  "block.createelectrolysis.electrolyser": "Electrolyser",
+  "block.createelectrolysis.hydrogen_block": "Hydrogen",
+  "block.createelectrolysis.oxygen_block": "Oxygen",
+  "item.createelectrolysis.hydrogen_bucket": "Hydrogen Bucket",
+  "item.createelectrolysis.oxygen_bucket": "Oxygen Bucket",
+  "item.createelectrolysis.rods": "Iron Rods",
+  "fluid.createelectrolysis.hydrogen": "Hydrogen",
+  "fluid.createelectrolysis.oxygen": "Oxygen",
+
+  "createelectrolysis.configuration.title": "Create: Electrolysis Configs",
+  "createelectrolysis.configuration.section.createelectrolysis.common.toml": "Create: Electrolysis Configs",
+  "createelectrolysis.configuration.section.createelectrolysis.common.toml.title": "Create: Electrolysis Configs",
+  "createelectrolysis.configuration.items": "Item List",
+  "createelectrolysis.configuration.logDirtBlock": "Log Dirt Block",
+  "createelectrolysis.configuration.magicNumberIntroduction": "Magic Number Text",
+  "createelectrolysis.configuration.magicNumber": "Magic Number"
+}

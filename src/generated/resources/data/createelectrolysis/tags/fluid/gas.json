@@ -1,0 +1,8 @@
+{
+  "values": [
+    "createelectrolysis:oxygen",
+    "createelectrolysis:oxygen_flowing",
+    "createelectrolysis:hydrogen",
+    "createelectrolysis:hydrogen_flowing"
+  ]
+}

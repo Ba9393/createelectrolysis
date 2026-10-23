@@ -23,6 +23,7 @@ public class ModBlocks {
     /** MACHINES */
     public static final DeferredBlock<Block> ELECTROLYSER = BLOCKS.register("electrolyser",
             () -> new ElectrolyserBlock(BlockBehaviour.Properties.of()
+                    .noOcclusion()
                     .strength(3f)
                     .explosionResistance(1200f)
                     .requiresCorrectToolForDrops()));

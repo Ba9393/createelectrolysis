@@ -156,9 +156,9 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 jar {
-    manifest.attributes([
+    /*manifest.attributes([
             "MixinConfigs": "${mod_id}.mixins.json",
-    ])
+    ])*/
 }
 
 idea {

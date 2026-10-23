@@ -91,12 +91,14 @@ repositories {
 }
 
 dependencies {
-    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
-    implementation("net.createmod.ponder:Ponder-NeoForge-${minecraft_version}:${ponder_version}")
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") {
+        transitive = false
+    }
+    implementation("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}")
     compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
     runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
     implementation("com.tterrag.registrate:Registrate:${registrate_version}")
-//    implementation("curse.maven:createaddition-439890:6445614")
+    //implementation("curse.maven:createaddition-439890:6445614")
 
     compileOnly("curse.maven:kubejs-238086:5810100")
 //    implementation("dev.latvian.mods:kubejs-neoforge:2101.7.2-build.200")
@@ -107,7 +109,7 @@ dependencies {
     implementation("curse.maven:architectury-api-419699:5786327")
 
     implementation("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
-    implementation("curse.maven:selene-499980:6612980")
+    //implementation("curse.maven:selene-499980:6612980")
     annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
 }
 

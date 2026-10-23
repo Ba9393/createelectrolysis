@@ -1,0 +1,6 @@
+{
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "createelectrolysis:block/oxygen_still"
+  }
+}
